@@ -1,0 +1,26 @@
+# Langchain Core
+
+langchain
+langchain-core
+
+# OpenAI Integration
+
+openai
+langchain-openai
+
+# Hugging Face Integration
+
+langchain-huggingface
+transformers
+sentence_transformers
+huggingface_hub
+
+# Environment Variables
+
+python-dotenv
+
+
+# Machine Learning and Data Processing
+
+numpy
+scikit-learn
