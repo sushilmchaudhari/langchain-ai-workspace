@@ -24,3 +24,14 @@ python-dotenv
 
 numpy
 scikit-learn
+
+# Install grandalf to draw graphs
+
+grandalf
+
+# Requests
+requests
+
+
+# Pydantic for data validation
+pydantic[email]
