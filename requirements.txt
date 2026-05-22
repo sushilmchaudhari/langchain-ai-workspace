@@ -2,6 +2,8 @@
 
 langchain
 langchain-core
+langchain-community
+langchain-experimental
 
 # OpenAI Integration
 
@@ -35,3 +37,24 @@ requests
 
 # Pydantic for data validation
 pydantic[email]
+
+# PDF Loaders
+PyPDF
+
+# BeautifulSoup for HTML parsing
+bs4
+
+# Text Splitters
+langchain-text-splitters
+
+# Vector Stores
+langchain-chroma
+faiss-cpu
+
+# Retrievers
+wikipedia
+
+# Tools
+
+# DuckDuckGoSearchR
+ddgs
