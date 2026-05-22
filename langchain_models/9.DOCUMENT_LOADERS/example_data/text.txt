@@ -1,0 +1,82 @@
+Python Versions
+Every programming language evolves as new ideas and technologies emerge,
+and the developers of Python have continually made the language more
+versatile and powerful. As of this writing, the latest version is Python 3.11,
+but everything in this book should run on Python 3.9 or later. In this sec-
+tion, we’ll find out if Python is already installed on your system and whether
+you need to install a newer version. Appendix A contains additional details
+about installing the latest version of Python on each major operating system
+as well.
+Running Snippets of Python Code
+You can run Python’s interpreter in a terminal window, allowing you to try
+bits of Python code without having to save and run an entire program.
+Throughout this book, you’ll see code snippets that look like this:
+>>> print("Hello Python interpreter!")
+Hello Python interpreter!
+The three angle brackets (>>>) prompt, which we’ll refer to as a Python
+prompt, indicates that you should be using the terminal window. The bold
+text is the code you should type in and then execute by pressing ENTER.
+Most of the examples in this book are small, self-contained programs that
+you’ll run from your text editor rather than the terminal, because you’ll
+write most of your code in the text editor. But sometimes, basic concepts
+will be shown in a series of snippets run through a Python terminal session
+to demonstrate particular concepts more efficiently. When you see three
+angle brackets in a code listing, you’re looking at code and output from
+a terminal session. We’ll try coding in the interpreter on your system in a
+moment.
+We’ll also use a text editor to create a simple program called Hello World!
+that has become a staple of learning to program. There’s a long-held tradi-
+tion in the programming world that printing the message Hello world! to
+the screen as your first program in a new language will bring you good luck.
+Such a simple program serves a very real purpose. If it runs correctly on your
+system, then any Python program you write should work as well.
+About the VS Code Editor
+VS Code is a powerful, professional-quality text editor that’s free and beginner-
+friendly. VS Code is great for both simple and complex projects, so if you
+become comfortable using it while learning Python, you can continue using
+it as you progress to larger and more complicated projects. VS Code can be
+installed on all modern operating systems, and it supports most programming
+languages, including Python.
+Appendix B provides information on other text editors. If you’re curi-
+ous about the other options, you might want to skim that appendix at this
+4 Chapter 1
+N O T E point. If you want to begin programming quickly, you can use VS Code to
+start. Then you can consider other editors, once you’ve gained some experi-
+ence as a programmer. In this chapter, I’ll walk you through installing VS
+Code on your operating system.
+If you already have a text editor installed and you know how to configure it to run
+Python programs, you are welcome to use that editor instead.
+Python on Different Operating Systems
+Python is a cross-platform programming language, which means it runs on
+all the major operating systems. Any Python program you write should run
+on any modern computer that has Python installed. However, the methods
+for setting up Python on different operating systems vary slightly.
+In this section, you’ll learn how to set up Python on your system. You’ll
+first check whether a recent version of Python is installed on your system,
+and install it if it’s not. Then you’ll install VS Code. These are the only two
+steps that are different for each operating system.
+In the sections that follow, you’ll run hello_world.py and troubleshoot
+anything that doesn’t work. I’ll walk you through this process for each oper-
+ating system, so you’ll have a Python programming environment that you
+can rely on.
+Python on Windows
+Windows doesn’t usually come with Python, so you’ll probably need to
+install it and then install VS Code.
+Installing Python
+First, check whether Python is installed on your system. Open a command
+window by entering command into the Start menu and clicking the Command
+Prompt app. In the terminal window, enter python in lowercase. If you get a
+Python prompt (>>>) in response, Python is installed on your system. If you
+see an error message telling you that python is not a recognized command,
+or if the Microsoft store opens, Python isn’t installed. Close the Microsoft
+store if it opens; it’s better to download an official installer than to use
+Microsoft’s version.
+If Python is not installed on your system, or if you see a version
+earlier than Python 3.9, you need to download a Python installer for
+Windows. Go to https://python.org and hover over the Downloads link.
+You should see a button for downloading the latest version of Python.
+Click the button, which should automatically start downloading the cor-
+rect installer for your system. After you’ve downloaded the file, run the
+installer. Make sure you select the option Add Python to PATH, which
+will make it easier to configure your system correctly. Figure 1-1 shows
+this option selected.
