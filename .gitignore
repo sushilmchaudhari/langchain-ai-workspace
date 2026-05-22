@@ -25,6 +25,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+chroma_db/
+faiss_index/
+**/.DS_Store
 
 # PyInstaller
 #   Usually these files are written by a python script from a template
