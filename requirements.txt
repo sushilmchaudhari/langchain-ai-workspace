@@ -58,3 +58,9 @@ wikipedia
 
 # DuckDuckGoSearchR
 ddgs
+
+# LangGraph
+langgraph
+
+# LangSmith
+langsmith
